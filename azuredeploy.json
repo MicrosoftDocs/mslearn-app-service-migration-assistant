@@ -204,7 +204,7 @@
                             ]
                         },
                         "protectedSettings": {
-                            "commandToExecute": "[format('powershell -ExecutionPolicy Bypass -file vmscript.ps1 -connstr \"{0}\"', variables('connectionString'))]"
+                            "commandToExecute": "[format('powershell -ExecutionPolicy Bypass -file vm-setup.ps1 -connstr \"{0}\"', variables('connectionString'))]"
                         }
                     }
                 }
