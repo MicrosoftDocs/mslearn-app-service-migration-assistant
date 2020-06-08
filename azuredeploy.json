@@ -10,7 +10,7 @@
         }
     },
     "variables": {
-        "hostingPlanName": "[concat('hostingplan', uniqueString(resourceGroup().id))]",
+        "hostingPlanName": "Learn-Exercise-Plan",
         "sqlserverName": "[concat('sqlserver', uniqueString(resourceGroup().id))]",
         "databaseName": "sampledb",
         "location": "centralus",
